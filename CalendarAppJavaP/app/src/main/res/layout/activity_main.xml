@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Alegeti data"
+        android:text="salut"
         android:textColor="#FFF"
         android:textSize="23sp"
         android:layout_marginTop="75dp"
