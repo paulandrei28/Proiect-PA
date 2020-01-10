@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Test"
-        android:visibility="visible"></TextView>
+        android:visibility="visible">
+
+    </TextView>
 
 </RelativeLayout>
