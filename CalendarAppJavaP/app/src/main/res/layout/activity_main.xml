@@ -15,10 +15,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginTop="75dp"
         android:text="Alegeti data"
         android:textColor="#FFF"
-        android:textSize="23sp"
-        android:layout_marginTop="75dp"/>
+        android:textSize="23sp" />
 
     <LinearLayout
         android:layout_marginTop="60dp"
@@ -39,15 +39,15 @@
 
     <Button
         android:id="@+id/button"
-        android:background="@drawable/bg_buton"
-        android:layout_marginTop="60dp"
-        android:text="adaugati programare"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/TextView"
         android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_buton"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/TextView" />
+        android:text="adaugati programare" />
 
 
 </LinearLayout>
