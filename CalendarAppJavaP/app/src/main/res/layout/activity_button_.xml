@@ -4,22 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Button_Activity">
 
     <TextView
         android:id="@+id/myDate"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
         android:layout_marginTop="75dp"
-        android:text="Alegeti data"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="25sp" />
+        android:text="Data aleasa"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="23sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_gravity="center"
         android:text="Test"
         android:visibility="visible">
 

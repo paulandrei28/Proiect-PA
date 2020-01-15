@@ -15,9 +15,9 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
     CalendarView calendarView;
     TextView myDate;
+    String luna;
 
     private Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
@@ -39,14 +39,56 @@ public class MainActivity extends AppCompatActivity {
         calendarView.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
             @Override
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {
-                String date = day + "/" + (month+1) + "/" + year;
-                myDate.setText(date);
+                if(2>1) {
+                    if (month + 1 == 1) {
+                        luna = "Ianuarie";
+                    }
+                    if (month + 1 == 2) {
+                        luna = "Februarie";
+                    }
+                    if (month + 1 == 3) {
+                        luna = "Martie";
+                    }
+                    if (month + 1 == 4) {
+                        luna = "Aprilie";
+                    }
+                    if (month + 1 == 5) {
+                        luna = "Mai";
+                    }
+                    if (month + 1 == 6) {
+                        luna = "Iunie";
+                    }
+                    if (month + 1 == 7) {
+                        luna = "Iulie";
+                    }
+                    if (month + 1 == 8) {
+                        luna = "August";
+                    }
+                    if (month + 1 == 9) {
+                        luna = "Septembrie";
+                    }
+                    if (month + 1 == 10) {
+                        luna = "Octombrie";
+                    }
+                    if (month + 1 == 11) {
+                        luna = "Noiembrie";
+                    }
+                    if (month + 1 == 12) {
+                        luna = "Decembrie";
+                    }
                 }
+                Global.date = day + " " + luna + " " + year;
+                myDate.setText(Global.date);
+            }
 
         });
     }
     public void opennewfile() {
+
         Intent intent = new Intent(this, Button_Activity.class);
         startActivity(intent);
+
+
     }
 }
+
