@@ -8,7 +8,7 @@
     android:background="@color/colorPrimaryDark"
     tools:context=".Button_Activity">
 
-    <TextView
+     <TextView
         android:id="@+id/myDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
