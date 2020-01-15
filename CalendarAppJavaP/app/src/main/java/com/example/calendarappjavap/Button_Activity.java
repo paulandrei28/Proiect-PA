@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.TextView;
@@ -18,5 +19,8 @@ public class Button_Activity extends MainActivity {
         myDate.setText(Global.date);
 
 
+    }
+    public void sendFeedback(View button2) {
+        // Do click handling here
     }
 }

@@ -48,7 +48,7 @@
         android:background="@drawable/bg_buton"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="adaugati programare" />
+        android:text="selectati data" />
 
 
 </LinearLayout>

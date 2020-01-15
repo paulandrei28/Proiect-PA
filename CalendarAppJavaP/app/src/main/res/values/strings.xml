@@ -1,3 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CalendarAppJavaP</string>
+    <string name="feedbacktype1">Lash botox -1h</string>
+    <string name="feedbacktype2">Curs make-up -4h</string>
+    <string name="feedbacktype3">Make-up -1h</string>
+    <string name="feedbacktype4">Microblading -1h 30min</string>
+    <string name="feedbacktype5">Pensat 15min</string>
+    <string name="feedbacktype6">TO DO 1h-4h</string>
+    <string name="feedbacktype7">Unitbv -2h</string>
+    <string name="feedbacktype8">Acasa -1h</string>
+
+    <string name="feedbacktitle">Adaugati datele clientului</string>
+    <string name="feedbackname">Nume</string>
+    <string name="feedbackphone">Numar de telefon</string>
+    <string name="feedbacktype">Tip programare</string>
+    <string name="feedbackbutton">Adaugati programare</string>
+
+
+
 </resources>

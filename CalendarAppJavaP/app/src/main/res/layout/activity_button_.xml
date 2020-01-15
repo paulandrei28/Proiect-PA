@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
     tools:context=".Button_Activity">
 
     <TextView
@@ -14,17 +15,69 @@
         android:layout_marginTop="75dp"
         android:text="Data aleasa"
         android:textAlignment="center"
-        android:textColor="#000"
+        android:textColor="#FFF"
         android:textSize="23sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_gravity="center"
-        android:text="Test"
-        android:visibility="visible">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
 
-    </TextView>
+        <!--Put form controls here-->
+        <TextView
+            android:id="@+id/TextViewTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedbacktitle"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="10pt" />
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_marginHorizontal="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bg_calen"
+            android:hint="@string/feedbackname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/EditTextPhone"
+            android:layout_marginHorizontal="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_calen"
+            android:digits="0123456789+"
+            android:hint="@string/feedbackphone"
+            android:inputType="phone" />
+
+        <Spinner
+            android:id="@+id/SpinnerFeedbackType"
+            android:layout_width="fill_parent"
+            android:layout_marginHorizontal="25dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_calen"
+            android:entries="@array/feedbacktypelist"
+            android:prompt="@string/feedbacktype"
+            android:spinnerMode="dialog"/>
+
+        <Button
+            android:id="@+id/ButtonSendFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/bg_buton"
+            android:onClick="sendFeedback"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/feedbackbutton" />
+
+    </LinearLayout>
 
 </RelativeLayout>
