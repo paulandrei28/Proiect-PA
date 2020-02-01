@@ -14,7 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     CalendarView calendarView;
-    TextView myDate;
+    TextView myDate,myHour;
     String luna;
 
     private Button button;
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void opennewfile() {
 
-        Intent intent = new Intent(this, Button_Activity.class);
+        Intent intent = new Intent(this, Button2_Activity.class);
         startActivity(intent);
 
 

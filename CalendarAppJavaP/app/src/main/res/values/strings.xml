@@ -9,11 +9,22 @@
     <string name="feedbacktype6">TO DO 1h-4h</string>
     <string name="feedbacktype7">Unitbv -2h</string>
     <string name="feedbacktype8">Acasa -1h</string>
+    <string name="feedbacktype9">10:00</string>
+    <string name="feedbacktype10">11:00</string>
+    <string name="feedbacktype11">12:00</string>
+    <string name="feedbacktype12">13:00</string>
+    <string name="feedbacktype13">14:00</string>
+    <string name="feedbacktype14">15:00</string>
+    <string name="feedbacktype15">16:00</string>
+    <string name="feedbacktype16">17:00</string>
+    <string name="feedbacktype17">18:00</string>
+
 
     <string name="feedbacktitle">Adaugati datele clientului</string>
     <string name="feedbackname">Nume</string>
     <string name="feedbackphone">Numar de telefon</string>
-    <string name="feedbacktype">Tip programare</string>
+    <string name="feedbacktypes2">Tip programare</string>
+    <string name="feedbacktypes1">Ora</string>
     <string name="feedbackbutton">Adaugati programare</string>
 
 

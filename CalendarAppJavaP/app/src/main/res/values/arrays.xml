@@ -9,5 +9,22 @@
         <item>@string/feedbacktype6</item>
         <item>@string/feedbacktype7</item>
         <item>@string/feedbacktype8</item>
+
     </string-array>
+    <string-array name="feedbacktypelist2">
+        <item>@string/feedbacktype9</item>
+        <item>@string/feedbacktype10</item>
+        <item>@string/feedbacktype11</item>
+        <item>@string/feedbacktype12</item>
+        <item>@string/feedbacktype13</item>
+        <item>@string/feedbacktype14</item>
+        <item>@string/feedbacktype15</item>
+        <item>@string/feedbacktype16</item>
+        <item>@string/feedbacktype17</item>
+
+
+    </string-array>
+
+
+
 </resources>
